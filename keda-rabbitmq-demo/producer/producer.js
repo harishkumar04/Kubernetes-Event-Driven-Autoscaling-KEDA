@@ -20,7 +20,7 @@ async function sendOrders() {
 
         console.log("✅ Queue Ready");
 
-        for (let i = 1; i <= 5; i++) {
+        for (let i = 1; i <= 15000; i++) {
             channel.sendToQueue(
                 queue,
                 Buffer.from(`Order ${i}`)

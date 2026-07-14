@@ -7,7 +7,7 @@ async function startWorker() {
     console.log("Connecting to RabbitMQ...");
 
     const connection = await amqp.connect(
-        "amqp://guest:guest@127.0.0.1:5672"
+        "amqp://guest:guest@rabbitmq:5672"
     );
 
     console.log("Connected!");

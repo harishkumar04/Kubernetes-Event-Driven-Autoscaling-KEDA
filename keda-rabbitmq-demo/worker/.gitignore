@@ -1,0 +1,7 @@
+# Ignore the node_modules directory
+node_modules/
+
+# Track package.json and package-lock.json
+!package.json
+!package-lock.json
+
